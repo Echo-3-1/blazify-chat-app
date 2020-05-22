@@ -1,10 +1,10 @@
 const io = require('socket.io')(3000)
+console.log("BLazify Chat App is Ready")
 const mongoose = require("mongoose")
 
 const users = {}
 
 io.on('connection', socket => {
-
   socket.on('new-user', name => {
     users[socket.id] = name
     socket.broadcast.emit('user-connected', name)
@@ -20,7 +20,7 @@ io.on('connection', socket => {
   })
 })
 
-mongoose.connect("mongodb+srv://Jesus:Jesus@cluster0-lfjpj.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://Jesus:Jesus@cluster0-lfjpj.mongodb.net/chat?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.connection
 .on("connected", () => console.log("Connected to MongoDB"))
