@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-import './SignUp.css';
+import './RoomCreate.css';
 
 export default function SignUp() {
   const [room, setRoomName] = useState('');
