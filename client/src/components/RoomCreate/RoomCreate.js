@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import './RoomCreate.css';
 
-export default function SignUp() {
+export default function RoomCreate() {
   const [room, setRoomName] = useState('');
   const [roompassword, setRoomPassword] = useState('');
 
