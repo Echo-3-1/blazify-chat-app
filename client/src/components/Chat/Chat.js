@@ -18,7 +18,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
-  const ENDPOINT = 'http://localhost:3000/Join/Join';
+  const ENDPOINT = 'http://localhost:8080/';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);

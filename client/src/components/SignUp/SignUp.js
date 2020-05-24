@@ -17,7 +17,7 @@ export default function SignUp() {
         <div>
           <input placeholder="Password" className="signupInput mt-20" type="mixed" onChange={(event) => setPassword(event.target.value)} />
         </div>
-        <Link onClick={e => (!name || !password) ? e.preventDefault() : null} to={`/Join/Join`}>
+        <Link onClick={e => (!name || !password) ? e.preventDefault() : null} to={`/RoomCreate/RoomCreate`}>
           <button className={'button mt-20'} type="submit">Sign Up</button>
         </Link>
       </div>
