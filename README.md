@@ -1,24 +1,3 @@
-!-- Image and basic image loading stuff !-->
-
-<div align = "center">
-    <img src = "" align = "center">
-        <br>
-        <br>
-    <strong><i> </i></strong>
-        <br>
-        <br>
-    <hr>
-
-<!-- Mutiple can be used in here -->
-
-    <a href = "">
-        <img src = "" alt = "">
-    </a>
-
-</div>
-
----
-
 ## Blazify Chat App
 <!-- more stuff here information and something else -->
 
