@@ -15,6 +15,10 @@ const addUser = async ({ id, name, room }) => {
     room
   });
 
+
+users.push(user);
+
+
   return { user };
 
 };
