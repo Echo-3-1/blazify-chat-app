@@ -15,5 +15,5 @@ Content
 
 # Author
 
-**Blazify Chat App** © [App](https://github.com/Blazify/blazify-chat-app)).  
+**Blazify Chat App** © [GitHub Repository](https://github.com/Blazify/blazify-chat-app).  
 Authored and maintained by RoMeAh and KingJesusThe69Th.
